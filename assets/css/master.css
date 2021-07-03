@@ -1,0 +1,176 @@
+@import "./font/font.css";
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+
+html, body {
+    direction: rtl;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background-color: #F8EFBA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Yekan", sans-serif;
+}
+
+.glass {
+    background-color: #f1f2f6;
+    height: 553.5px;
+    width: 729px;
+    border-radius: 0.5rem;
+    overflow-y: scroll;
+    box-shadow: 0 5px 30px rgb(47 53 66 / 40%);
+}
+
+.menu {
+    width: 243px;
+    height: 553.5px;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: #2f3542;
+    color: #f1f2f6;
+    position: fixed;
+    float: right;
+}
+
+.space {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.menu img {
+    margin-top: 25px;
+    border-radius: 0.5rem;
+}
+
+.menu h2 {
+    font-weight: 900;
+}
+
+.menu p {
+    text-align: justify center;
+}
+
+.line {
+    width: 85%;
+    height: 2px;
+    background-color: #eccc68;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.about {
+    width: 85%;
+    height: calc(100% - 321px);
+    background-color: #f1f2f6;
+    margin: 20px auto;
+    list-style-type: none;
+    text-align: right;
+    color: #2f3542;
+    border-radius: 0.5rem;
+    overflow-y: scroll;
+}
+
+.about {
+    text-align: justify;
+}
+
+.about-row {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.website {
+    width: 90%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.content {
+    width: calc(100% - 243px);
+    float: left;
+    margin-top: 20px;
+    overflow-y: scroll;
+}
+
+.content-space {
+    width: 90%;
+    margin: auto;
+}
+
+.content-space h1:first-child {
+    margin: 0;
+}
+
+.content-space h1 {
+    margin-top: 25px;
+}
+
+.row {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.row:last-child {
+    margin-bottom: 20px;
+}
+
+.app-skill {
+    font-family: "Baloo Tammudu 2";
+    width: 100px;
+    margin: 0 5px;
+    color: #f1f2f6;
+    text-align: center;
+    display: inline-block;
+    background-color: #ff4757;
+    border-radius: 0.5rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.app-skill i {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.app-certificate {
+    width: 210px;
+    margin: 0 5px;
+    color: #f1f2f6;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+
+.app-website {
+    width: 210px;
+    margin: 0 5px;
+    color: #f1f2f6;
+    text-align: center;
+    display: inline-block;
+    background-color: #70a1ff;
+    border-radius: 0.5rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: 0.2s ease 0.2ms;
+}
