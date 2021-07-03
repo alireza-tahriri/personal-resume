@@ -181,7 +181,7 @@ main {
         height: 553.5px;
         width: 240px;
         border-radius: 0.5rem;
-        overflow-y: scroll;
+        overflow-y: hidden;
         box-shadow: 0 5px 30px rgb(47 53 66 / 40%);
     }
     .menu {
