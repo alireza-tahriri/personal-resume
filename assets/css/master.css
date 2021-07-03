@@ -174,3 +174,24 @@ main {
     text-decoration: none;
     transition: 0.2s ease 0.2ms;
 }
+
+@media screen and (max-width: 785px) {
+    .glass {
+        background-color: #f1f2f6;
+        height: 553.5px;
+        width: 240px;
+        border-radius: 0.5rem;
+        overflow-y: scroll;
+        box-shadow: 0 5px 30px rgb(47 53 66 / 40%);
+    }
+    .menu {
+        width: 243px;
+        height: 553.5px;
+        border-radius: 0.5rem;
+        text-align: center;
+        background-color: #2f3542;
+        color: #f1f2f6;
+        position: fixed;
+        float: right;
+    }
+}
